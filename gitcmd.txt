@@ -1,9 +1,9 @@
 -- to sign in Git System
 git config --global user.name "saberhao"
 git config --user.email "565776551@qq.com"
--- add the file to your Git
+-- add the file to your Git buffer and ready to submit it
 git add filename
--- upload the file to the Git
+-- upload the file to the Git from Git buffer!!!
 git commit -m "writhe the readme file"
 -- get the Git file status
 git status
@@ -17,4 +17,8 @@ git reset --hard head^
 git reset --hard head~100
 -- get the opera of git !!
 git reflog
+-- to delete from Git buff or Working buff
+git checkout -- filename
+-- to delete from Git buff
+--git reset HEAD file
 
