@@ -1,2 +1,2 @@
-Git is a version control systte
-kkk
+Git is a version control system
+kkk is laugh
