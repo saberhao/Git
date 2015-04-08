@@ -1,0 +1,20 @@
+-- to sign in Git System
+git config --global user.name "saberhao"
+git config --user.email "565776551@qq.com"
+-- add the file to your Git
+git add filename
+-- upload the file to the Git
+git commit -m "writhe the readme file"
+-- get the Git file status
+git status
+-- show the differences betweenn the orig and modify
+git diff filename
+-- get the Git modify log
+git log
+-- go to any version of file
+git reset --hard commit_id
+git reset --hard head^
+git reset --hard head~100
+-- get the opera of git !!
+git reflog
+
