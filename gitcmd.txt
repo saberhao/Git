@@ -20,5 +20,8 @@ git reflog
 -- to delete from Git buff or Working buff
 git checkout -- filename
 -- to delete from Git buff
---git reset HEAD file
+git reset HEAD file
+-- rm the file from git
+git rm filename
+git commit -m "rm the file"
 
