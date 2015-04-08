@@ -24,4 +24,6 @@ git reset HEAD file
 -- rm the file from git
 git rm filename
 git commit -m "rm the file"
+-- setup public key for Github SSH
+ssh-keygen -t rsa -C "565776551@qq.com"
 
