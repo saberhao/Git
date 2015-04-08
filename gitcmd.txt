@@ -26,4 +26,9 @@ git rm filename
 git commit -m "rm the file"
 -- setup public key for Github SSH
 ssh-keygen -t rsa -C "565776551@qq.com"
+-- connect the Github first
+git remote add origin git@server-name:path/repo-name.git
+git push -u origin master
+-- 2nd to upload to Github
+git pushorigin master
 
