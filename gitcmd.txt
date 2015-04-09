@@ -30,5 +30,17 @@ ssh-keygen -t rsa -C "565776551@qq.com"
 git remote add origin git@server-name:path/repo-name.git
 git push -u origin master
 -- 2nd to upload to Github
-git pushorigin master
+git pushorigin maste
+--check the branch
+git branch
+--create branch
+git branch branchname
+--switch branch
+git checkout branchname
+--create and switch branch
+git checkout -b branchname
+--merge A branch to current branch
+git merge branchname
+--delete branch
+git branch -d branchname
 
